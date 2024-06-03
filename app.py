@@ -3,7 +3,7 @@ from gtts import gTTS
 import os
 import tempfile
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/')
 def load_hindi_book():
